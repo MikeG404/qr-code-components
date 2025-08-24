@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --slate-300: #D5E1EF;
+    --slate-500: #68778D;
+    --slate-900: #1F314F;
+    --white: #FFFFFF;
+}
+
+.text-preset-1 {
+    font-family: 'Outfit';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.text-preset-2 {
+    font-family: 'Outfit';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+}
